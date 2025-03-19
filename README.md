@@ -1,6 +1,6 @@
 #  C2RF
 
-This is official Pytorch implementation of "**C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning**"
+This is official Pytorch implementation of "**C2RF: Bridging Multi-modal Image Registration and Fusion via Commonality Mining and Contrastive Learning**"(IJCV 2025)
 
 ## 1. Recommended Environment
  - [ ] torch  1.10.2+cu102
