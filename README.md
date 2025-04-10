@@ -8,16 +8,23 @@ This is official Pytorch implementation of "**C2RF: Bridging Multi-modal Image R
  - [ ] kornia 0.5.2
 
 ## 2. Framework
-![The framework of the proposed C2RF for multi-modal image registration and fusion.](https://github.com/QinglongYan-hub/C2RF/blob/main/C2RF/Framework.png)
 The framework of the proposed C2RF for multi-modal image registration and fusion.
-## 3. To Test
+![The framework of the proposed C2RF for multi-modal image registration and fusion.](https://github.com/QinglongYan-hub/C2RF/blob/main/C2RF/Framework.png)
+
+## 3. Pretrained Weights
+Please download the pretrained weights at the link below, and then place them into the folder ./checkpoint/
+- The pretrained weights for the Roadscene dataset is at [Google Drive](https://drive.google.com/drive/folders/1wOSVg9CsqZBJkHWYMGD1kCER9tThSxYk?usp=sharing).
+
+- The pretrained weights for the PET-MRI dataset is at [Google Drive](https://drive.google.com/drive/folders/1M99NDvcnk71iZUVC6BlYyRvAKIZlUIK6?usp=sharing).
+
+## 4. To Test
 ### Registration and Fusion 
 #### RoadScene dataset    
     python test.py --dataset=RoadScene 
 #### PET-MRI dataset
     python test.py --dataset=PET-MRI
 
-## 4. To Train
+## 5. To Train
 ### Training the fusion model 
 #### RoadScene dataset
     python train_Fu.py --dataset=RoadScene
